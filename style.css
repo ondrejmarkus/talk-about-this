@@ -1,0 +1,82 @@
+/* HTML & BODY */
+
+html, body {
+	width: 100%;
+    height: 100%;
+}
+
+body {
+	background: white;
+    margin: 0;
+    font-family: -apple-system, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+/* HEADER */
+
+header {
+    background: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 30px;
+    font-size: 3em;
+}
+
+header p {
+    padding: 0 0 15px 0;
+    margin: 7px 0 15px 0;
+    color: gray;
+    font-size: 1.2em;
+}
+
+/* CONTAINER */
+
+.container {
+    background: white;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    margin: auto;
+    display: block;
+    padding: 40px;
+    text-align: center;
+    line-height: 2.2em;
+    /* border: 1px solid black; */
+}
+
+.card h2 {
+    margin: 0;
+}
+
+/* BUTTON */
+
+.btn-container {
+    background: black;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 40px;
+}
